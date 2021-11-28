@@ -7,7 +7,7 @@
 			"description": "Upstream repo you need"
 		},
 		"CONFIG_URL": {
-			"description": "Gist of your config",
+			"description": "Gist of your config"
 		}
 	},
     	"stack": "container"
