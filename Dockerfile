@@ -64,6 +64,7 @@ RUN pip3 install --upgrade pip setuptools
 
 # Cloning the repo
 RUN git clone https://github.com/rshero/YuiiChan /root/yui
+COPY start.sh /root/yui
 WORKDIR /root/yui
 
 ENV PATH="/root/bot/bin:$PATH"
