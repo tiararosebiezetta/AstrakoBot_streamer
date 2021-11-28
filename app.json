@@ -1,0 +1,14 @@
+{
+	"name": "AstrakoBot",
+	"description": "Group manager bot",
+	"repository": "https://github.com/tiararosebiezetta/AstrakoBot_streamer",
+	"env": {
+		"UPSTREAM_REPO": {
+			"description": "Upstream repo you need"
+		},
+		"CONFIG_URL": {
+			"description": "Gist of your config",
+		}
+	},
+    	"stack": "container"
+}
