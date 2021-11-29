@@ -63,7 +63,6 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Cloning the repo
-RUN git clone https://github.com/AnimeKaizoku/EnterpriseALRobot /root/yui
 COPY start.sh /root/yui
 WORKDIR /root/yui
 
