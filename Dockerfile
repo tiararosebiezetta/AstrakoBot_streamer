@@ -64,7 +64,8 @@ RUN pip3 install --upgrade pip setuptools
 
 # Cloning the repo
 RUN mkdir /root/yui
-COPY start.sh /root/yui
+COPY . /root/yui
+
 WORKDIR /root/yui
 
 ENV PATH="/root/bot/bin:$PATH"
