@@ -63,7 +63,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Cloning the repo
-MKDIR /root/yui
+RUN mkdir /root/yui
 COPY start.sh /root/yui
 WORKDIR /root/yui
 
